@@ -1,12 +1,20 @@
 body{
-  background-color: rgba(14, 164, 209, 0.966);
+    background-color: aqua;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-p{
-    font-size: 20px;
+
+.gif-container img {
+  width: 100px;         /* adjust size as needed */
+  height: 100px;
+  object-fit: cover;    /* crop the GIF perfectly */
+  border-radius: 50%;   /* makes it circular */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* optional effect */
 }
 ul{
     text-align: left;
